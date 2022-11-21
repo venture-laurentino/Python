@@ -1,0 +1,4 @@
+#CREATE AN ALGORITHM THAT READS A NUMBER AND SHOWS ITS DOUBLE, TRIPLE, AND SQUARE ROOT
+
+n = int (input ('INSERT A NUMBER: '))
+print ('DOUBLE: {}\nTRIBPE: {}\nSQUARE ROOT: {}' .format(n*2, n*3, n**(1/2)))
